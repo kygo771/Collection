@@ -147,14 +147,17 @@
             </div>
           </div>
 
-          <!-- 詢問類別 -->
+          <!-- 異常區域 -->
           <div class="input-group">
-            <label for="demo_select">詢問類別</label>
+            <label for="demo_select">異常區域</label>
             <select class="u-full-width" id="demo_select">
               <option value="0" value="0" selected disabled>請選擇</option>
-              <option value="cat">貓類</option>
-              <option value="dog">狗類</option>
-              <option value="bear">熊類</option>
+              <option value="a1">入口大廳</option>
+              <option value="a2">1F雕刻大道</option>
+              <option value="a3">動物廳</option>
+              <option value="a4">兵器廳</option>
+              <option value="a5">羅丹廳</option>
+              <option value="a6">小雕櫃</option>
             </select>
           </div>
 
@@ -203,7 +206,7 @@
         };
         $.ajax({
           type: 'POST',
-          url: 'https://docs.google.com/forms/d/e/1FAIpQLSeTgHEpVpuV_OHakO-25X-O7I4T1tIzIAUqHWLRvUqG9e6TvQ/formResponse',
+          url: 'https://docs.google.com/forms/d/e/1FAIpQLSe5us5a0H8u5epcOqYKMUJ5yFDehE34HOdNiPTuzcvjjMEvuw/formResponse',
           data: data,
           contentType: 'application/json',
           dataType: 'jsonp',
